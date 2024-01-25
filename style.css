@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+.box{
+    padding: 40px;
+    border: 4px solid white;
+    /* filter: drop-shadow(0px 0px 1px red); */
+    background: none;
+    height:96px;
+    width: 80px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+.scorebox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    background: red;
+    font-weight: 800;
+    box-shadow: 0px 0px 4px 0px #edd7d7;
+}
+
+/* #sc1{
+background-color:#00ffb5;
+}
+#sc2{
+    background-color:#607d8b; 
+}
+#sc3{
+    background-color:#ffa800d6;
+} */
+#winner{
+    /* position: absolute;
+    padding-bottom: 26rem; */
+    /* width: 155px; */
+    font-size: 30px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 93vh;
+    background: #000000;
+    border-radius: 3%;
+    box-shadow: 0px 0px 4px 0px #edd7d7;
+    
+}
+.material-symbols-outlined{
+    font-size: 26px !important;
+}
+main{
+
+}
+div{
+    display: flex;
+}
+
+#btn1{
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+#btn2{
+    border-top: none;
+}
+#btn3{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#btn4{
+    border-top: none;
+    border-left: none;
+    
+}
+#btn5{
+    border-left: none;
+    border-top: none;
+}
+#btn6{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+#btn7{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+#btn8{
+    border-bottom: none;
+    border-top: none;
+}
+#btn9{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+.resetbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: 23rem;
+
+
+}
+#Reset{
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: navajowhite;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    box-shadow: 0px 0px 4px 0px #edd7d7;
+ 
+    
+
+}
+#Reset:hover{
+    background-color: red;
+    transition: 0.5s ease-in;
+    box-shadow: 0px 0px 4px 0px #edd7d7;
+}
+#Reset:hover .material-symbols-outlined{
+    transform: rotate(30deg);
+    transition: 0.3s ease-in;
+    color: white;
+
+}
+@media screen and (max-width: 320px) {
+    body{
+        background-color: black;
+    }
+    .resetbox{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        height: 100vh;
+    }
+    img{
+        width: 50px;
+    }
+    header{
+        justify-content: space-between;
+        gap:17px;
+        margin-top: 3rem;
+        margin-left: 21px;
+    }
+    #winner{
+        width: 212px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 1024px) {
+    body{
+        background-color: black;
+    }
+    section{
+        width: 95%;
+        height: 100vh;
+    }
+    img{
+        width: 50px;
+    }
+    header{
+        justify-content: space-between;
+        gap: 21px;
+        margin-top: 3rem;
+        margin-left: 21px;
+    }
+    #winner{
+        width: 230px;
+    }
+}
